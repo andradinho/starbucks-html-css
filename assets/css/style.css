@@ -185,3 +185,20 @@ header .line {
     background-size: cover;
     background-position: center;
 }
+
+.area4 {
+    display: grid;
+    grid-template-columns: 420px 1fr;
+    background-color: #E8E9EE;
+}
+.area4--content {
+    padding: 170px 80px;
+}
+.area4--text {
+    margin-bottom: 50px;
+    line-height: 25px;
+}
+.area4--img1 {
+    background-image: url('../images/bg3.jpg');
+    background-position: left;
+}
